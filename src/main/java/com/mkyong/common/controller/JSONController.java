@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.mkyong.common.model.Shop;
 
 @Controller
-@RequestMapping("/kfc/brands")
+//@RequestMapping("/kfc/brands")
 public class JSONController {
 
 	@RequestMapping(value = "{name}", method = RequestMethod.GET)
